@@ -29,3 +29,13 @@ sudo apt install flameshot
   ![image-20200430142832911](./Ubuntu install.assets/image-20200430142832911.png)
 
 ![image-20200430142844948](./Ubuntu install.assets/image-20200430142844948.png)
+
+## 桌面图标
+
+将其他目录添加到桌面
+
+```shell
+ln -s '/dreamsrj/notes' ~/Desktop
+```
+
+![image-20200430215500968](Ubuntu install.assets/image-20200430215500968.png)
