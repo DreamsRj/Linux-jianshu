@@ -39,3 +39,12 @@ ln -s '/dreamsrj/notes' ~/Desktop
 ```
 
 ![image-20200430215500968](Ubuntu install.assets/image-20200430215500968.png)
+
+
+
+
+
+## 软件管理
+
+### 卸载软件
+
