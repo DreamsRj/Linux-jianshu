@@ -103,3 +103,55 @@ tail -20 test.txt
 
 
 
+# du：显示某个特定目录的磁盘使用情况
+
+du 命令用于显示指定目录的磁盘使用情况，默认du显示当前目录下的每个目录和文件的磁盘使用情况。
+
+显示的顺序从目录层级的最低层开始，然后按照文件，子目录，目录逐级向上。
+
+如果du命令加参数，实际使用作用并不大。
+
+
+
+## 实用参数
+
+- `-c`
+
+该参数用于显示所列出文件的总大小，在最底部输出。
+
+```shell
+du -c
+```
+
+
+
+![image-20200502113737168](Linux Command - touch.assets/image-20200502113737168.png)
+
+- `-s`
+
+  显示每个输出参数的总计
+
+  ![image-20200502113828167](Linux Command - touch.assets/image-20200502113828167.png)
+
+# 搜索文件内容
+
+```shell
+gerp [options] pattern [file]
+```
+
+
+
+```shell
+grep -rn 12 test.txt
+```
+
+![image-20200502114411162](Linux Command - touch.assets/image-20200502114411162.png)
+
+
+
+- `-r` :
+- `-n` ：显示匹配数据所在行数
+- `-v`：反向匹配（显示没有匹配到的内容）
+- `-c`：显示有多上行匹配到数据
+- `-e`：制定多个匹配模式，`grep -e abc -e bbc filename`
+- 
