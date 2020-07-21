@@ -1,2 +1,2 @@
-# Linux-jianshu
-about linux operation
+# Linux-tianshu
+note of my reading
